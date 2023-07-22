@@ -1,4 +1,5 @@
 # Data Exploration using SQL
+![](De_cover.jpg)
 ## Introduction
 In this project, I used a Covid-19 dataset and explored the data using SQL to analyze and gain insights into the data. This was achieved 
 with Microsoft SQL Server Management Studio. The data used ranges from January 03, 2020, to July 19, 2023.
