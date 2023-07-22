@@ -143,7 +143,7 @@ ORDER BY location
 
 
 
-/* Q9. How many people have been vaccinated out of the total population ?
+/* Q9. How many people have been vaccinated out of the total population?
 	   Vaccination vs. Population*/
 
 SELECT 
@@ -233,7 +233,7 @@ ORDER BY Vaccinations DESC
 
 
 
-/* Q11. How many cases and deaths has Nigera had so far? Show the Mortality, Case fatality rate,
+/* Q11. How many cases and deaths has Nigeria had so far? Show the Mortality, Case fatality rate,
 		and vaccinations administered. */
 
 SELECT 
