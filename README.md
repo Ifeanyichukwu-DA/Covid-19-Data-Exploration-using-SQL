@@ -4,7 +4,7 @@
 In this project, I used a Covid-19 dataset and explored it using SQL to analyze and gain insights into the data. This was achieved 
 with Microsoft SQL Server Management Studio. The data used ranges from January 03, 2020, to July 19, 2023.
 
-## Objective
+## Objectives
 1. To find the percentage of people who died from Covid-19.
 2. To find the percentage of people who died from Covid-19 across different countries.
 3. To determine the percentage of people who contracted Covid-19 across different countries.
