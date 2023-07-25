@@ -276,6 +276,7 @@ GROUP BY YEAR(cd.date), cd.population
 ![](Query11.jpg)
 
 In Nigeria, the majority of Covid cases were recorded in 2021 and more people died in this period as a result. Covid cases have reduced since 2020. As at the time of this project no death is recorded in Nigeria and no one has been vaccinated yet.
+***
 
 ## Conclusion
 This project showcases the use of SQL to explore and gain insights into any data. Although the project didn't cover every aspect of the dataset, it was able to show some unique results and insights, and trends on Covid-19 cases, deaths, and Vaccination around the world.  
