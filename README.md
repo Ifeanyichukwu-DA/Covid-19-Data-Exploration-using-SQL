@@ -23,7 +23,7 @@ The dataset used for this project was downloaded from a popular website known as
 updated daily.
 
 ## Procedures
-After downloading the data (in CSV format), I formatted the data in Microsoft Excel and seperated the dataset into two different Excel
+After downloading the data (in CSV format), I formatted the data in Microsoft Excel and separated the dataset into two different Excel
 workbooks (Covid_Deaths and Covid_Vaccinations). This was done in order to reduce the size and also use it later on to demonstrate the 
 use of SQL JOINS. Thereafter, the two files were imported into MSSQL Server.
 
@@ -35,7 +35,7 @@ The project enabled me to showcase my skills in
 - Creating temporary tables
 - Inserting data into a table
 - Aggregate and date functions
-- Case statement
+- Case Statement
   
 ## Results
 All the SQL queries discussed below can be found [here](Data_Exploration.sql)
@@ -72,7 +72,7 @@ ORDER BY Case_Fatality_Rate DESC
 
 ![](Query2.jpg)
 
-Here, the Covid cases and total deaths along with case fatality rate (the percentage of people who died from the virus) were shown for each country. Yemen has the highest case fatality rate, followed by Sudan, and Syria repectively. 
+Here, the Covid cases and total deaths along with the case fatality rate (the percentage of people who died from the virus) were shown for each country. Yemen has the highest case fatality rate, followed by Sudan, and Syria respectively. 
 ***
 
 ### _To determine the percentage of people who contracted Covid-19 across different countries_
@@ -125,7 +125,7 @@ ORDER BY Total_Deaths DESC
 
 ![](Query4.jpg)
 
-The above table shows the top 10 ranked countries with the high deaths resulting from Covid. All Continents were represented except for Africa and Oceania. Majority of the people who died are from the United States (**_1,129,589_**)
+The above table shows the top 10 ranked countries with the high deaths resulting from Covid. All Continents were represented except for Africa and Oceania. The majority of the people who died are from the United States (**_1,129,589_**)
 ***
 
 ### _To find the total cases and death count recorded across continents_
@@ -189,7 +189,7 @@ ORDER BY Year, MONTH(date)
 
 ![](Query7.jpg)
 
-I had mortality rate and case fatality rate sliced by year and month to show monthly cases and deaths. The mortality and case fatality rates were rounded to 4 decimal places so as to allow for readability as the original value is longer.
+I had the mortality rate and case fatality rate sliced by year and month to show monthly cases and deaths. The mortality and case fatality rates were rounded to 4 decimal places so as to allow for readability as the original value is longer.
 ***
 
 ### _To show the dates of the first recorded cases and the number of cases recorded_
@@ -209,7 +209,7 @@ ORDER BY location
 
 ![](Query8.jpg)
 
-The above table shows the date each country record their first covid cases as well as the number of cases recorded. We can see that Afghanistan recorded their first covid case on February 26, 2020 with just one case. Meanwhile Argentina recorded their first two cases on March 05, 2020.
+The above table shows the date each country record their first covid cases as well as the number of cases recorded. We can see that Afghanistan recorded its first covid case on February 26, 2020, with just one case. Meanwhile, Argentina recorded its first two cases on March 05, 2020.
 ***
 
 ### _To determine how many people have been vaccinated out of the total population_
@@ -232,7 +232,7 @@ ORDER BY 2,3
 
 ![](Query9.jpg)
 
-Here, I created a column for rolling count which sums the cases recorded sequentially for each country on a daily basis.
+Here, I created a column for the rolling count which sums the cases recorded sequentially for each country on a daily basis.
 ***
 
 ### _To find the number of people vaccinated across different continents out of the total population_
@@ -252,7 +252,7 @@ ORDER BY Vaccinations DESC
 
 ![](Query10.jpg)
 
-Majority of the people vaccinated are from Asia, followed by people from Europe, and North America Respectively
+The majority of the people vaccinated are from Asia, followed by people from Europe, and North America Respectively
 ***
 
 ### _To show many cases and deaths Nigeria has had so far? Show the Mortality, Case fatality rate, and vaccinations administered_
@@ -275,7 +275,7 @@ GROUP BY YEAR(cd.date), cd.population
 
 ![](Query11.jpg)
 
-In Nigeria, majority of Covid cases were recorded in 2021 and more people died in this period as a result. Covid cases have reduced since 2020. As at the time of this project no death is recorded in Nigeria and no one has been vaccinated yet.
+In Nigeria, the majority of Covid cases were recorded in 2021 and more people died in this period as a result. Covid cases have reduced since 2020. As at the time of this project no death is recorded in Nigeria and no one has been vaccinated yet.
 
 ## Conclusion
-This project showcases the use of SQL to explore and gain insights into any data. Although the project didn't cover every aspect of the dataset, it was able to show some unique results and insights and trends on Covid-19 cases, deaths, and Vaccination around the world.  
+This project showcases the use of SQL to explore and gain insights into any data. Although the project didn't cover every aspect of the dataset, it was able to show some unique results and insights, and trends on Covid-19 cases, deaths, and Vaccination around the world.  
